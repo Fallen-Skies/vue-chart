@@ -6,8 +6,8 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import print from '@/components/js/print.js';
 
-// import echarts from "echarts"
-// Vue.prototype.$echarts = echarts
+import echarts from "echarts"
+Vue.prototype.$echarts = echarts
 Vue.use(print);
 Vue.use(ElementUI);
 
